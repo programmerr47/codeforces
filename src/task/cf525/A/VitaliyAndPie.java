@@ -1,14 +1,12 @@
 package task.cf525.A;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 /**
  * @author Michael Spitsin
  * @since 2015-04-15
  */
-public class Task {
+public class VitaliyAndPie {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -17,7 +15,7 @@ public class Task {
         String roomAndKeyMap = scanner.next();
         StringBuilder map = new StringBuilder(roomAndKeyMap);
 
-        System.out.println(new Task().solve(map));
+        System.out.println(new VitaliyAndPie().solve(map));
     }
 
     private int solve(StringBuilder map) {
